@@ -1,0 +1,23 @@
+body{
+    background: #24333fa6;
+}
+.cantainer{
+    border: 2px solid rgb(0, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 15px; */
+
+}
+.main{
+    border: 2px solid red;
+    display: flex;
+    gap: 25px;
+    padding: 10px;
+}
+
+.btn{
+    /* padding: 6px; */
+    font-size: 2rem;
+}
