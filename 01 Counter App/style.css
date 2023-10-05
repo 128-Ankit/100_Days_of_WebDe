@@ -1,23 +1,38 @@
 body{
-    background: #24333fa6;
+    background: #0cc7c7c4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .cantainer{
-    border: 2px solid rgb(0, 255, 0);
+    background-color: #00000044;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    height: 400px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.main{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* gap: 15px; */
-
+    gap: 19px;
 }
-.main{
-    border: 2px solid red;
-    display: flex;
-    gap: 25px;
-    padding: 10px;
+
+.main h1{
+    position: relative;
+    bottom: 1rem;
 }
 
 .btn{
-    /* padding: 6px; */
-    font-size: 2rem;
+    background: blue;
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+    font-weight: 900;
 }
